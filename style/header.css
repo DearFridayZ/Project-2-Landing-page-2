@@ -1,0 +1,68 @@
+*
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+  
+a:hover{
+    color: #0A7777;
+}
+
+a:active{
+    color: orange;
+}
+
+
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    background-color: white;
+    height: 110px;
+    justify-content: center;
+   
+}
+
+#travel {
+    color: #0A7777;
+}
+
+.nav__container{
+    display:flex;
+    border-radius: 8px;
+    margin: 0 auto;
+    height: 110px;
+    align-items: center;
+    border-bottom: solid rgba(168, 168, 168, 0.25);
+
+}
+
+.buttons{
+    float:inline-end;
+}
+
+
+header li a{
+    color: black;
+    font-size: 24px;
+    line-height: 29px;
+}
+.nav__bar li{
+    display: inline;
+    margin-left: 70.5px;
+    padding-top: 55px;
+    
+}
+
+.nav__bar li #sign__button{
+    color:#fff;
+    background-color:#0A7777;
+    border-radius: 9px;
+    padding: 14px 13px;
+}
+
+
+
+

@@ -1,0 +1,127 @@
+
+.backpack__guy{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.backpack__guy h1{
+    font-size: 48px;
+    line-height: 69px;
+    margin-top: 276px;
+    margin-bottom: 80px;
+
+    
+}
+
+.backpack__guy p{
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.backpack__guy #back__girl{
+    margin-top: 75px;
+    padding-left: 290px;
+}
+
+.search__box{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 63px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1px;
+    
+}
+
+
+.search__box #calendar{
+    display: inline;
+    padding-left: 27px;
+    padding-top: 36px;
+    padding-bottom: 37px;
+    padding-right: 30px;
+}
+
+input[type="date"]{
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    outline:none;
+
+    
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    display: none;
+
+}
+
+.date__picker label{
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.search__box{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.search__box #appt{
+    height: 12px;
+    line-height: 15px;
+}
+
+.date__picker #vector{
+    padding-left: 0px;
+    padding-right: 14px;
+}
+
+.date__picker #line{
+    padding-right: 32px;
+}
+
+input[type="text"]{
+    border:none;
+    border-radius: 60px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    margin-top: 15px;
+    box-sizing: border-box;
+    width:120px;
+    margin-left: 20px;
+
+}
+
+.location__selector label{
+    padding-left: 63px;
+    padding-bottom: 10px;
+}
+.location__selector #vector__2{
+    padding-left: 32px;
+}
+
+.search__box #search__icon{
+    padding-left: 27px;
+    padding-right: 60px;
+
+}
+
+
