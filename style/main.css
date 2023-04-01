@@ -1,7 +1,9 @@
 
+
 .backpack__guy{
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 
 }
 
@@ -123,5 +125,76 @@ input[type="text"]{
     padding-right: 60px;
 
 }
+
+.about__us{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 238px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.palm__pic{
+    position: relative;
+    top: 0;
+    left:40px;
+}
+.church__pic{
+    position: relative;
+    top: 100px;
+    left: -130px;
+}
+.about__us__texts label{
+    color: #0A7777;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.about__us__texts h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+}
+.about__us__texts p{
+    font-size: 24px;
+    padding-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.about__numbers li{
+    list-style: none;
+    display: inline;
+    padding-right: 78px;
+    color: #0A7777;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    
+}
+
+.about__numbers ul{
+    padding-left: 0px;
+}
+
+.number__descriptions li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+
+
+}
+
+.number__descriptions ul{
+    padding-left: 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
 
 
