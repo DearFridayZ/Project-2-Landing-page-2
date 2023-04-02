@@ -245,6 +245,36 @@ input[type="text"]{
     margin-bottom: 200px;
 }
 
+.slide__box__1:hover{
+    border:none;
+    border-radius: 60px;
+    box-shadow:
+    0 2.8px 2.2px rgba(60, 240, 11, 0.034),
+    0 6.7px 5.3px rgba(230, 112, 112, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(70, 134, 50, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(202, 238, 74, 0.12);
+
+    margin-top: 15px;
+    box-sizing: border-box;
+    margin-left: 20px;    
+    viewport-fit:calc(65vh);
+    rotate: 100vh;
+
+
+}
+
+.slide__box__1 img{
+    transition: all 1.2s ease;
+}
+
+.slide__box__1:hover img{
+    border-radius: 60px;
+    transition: all 1s ease;
+    width: 95%;
+}
+
 .slider__container .slide__box__2{
     background-color:rgba(217, 217, 217, 0.47); 
     padding-top: 19px;
@@ -255,6 +285,36 @@ input[type="text"]{
     padding-right: 25px;
     margin-bottom: 200px;
     transition: all 1s ease;
+}
+
+
+.slide__box__2:hover{
+    border:none;
+    border-radius: 60px;
+    box-shadow:
+    0 2.8px 2.2px rgba(118, 235, 83, 0.034),
+    0 6.7px 5.3px rgba(163, 23, 23, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(70, 134, 50, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(202, 238, 74, 0.12);
+
+    margin-top: 15px;
+    box-sizing: border-box;
+    margin-left: 20px;    
+    viewport-fit:calc(65vh);
+
+
+}
+
+.slide__box__2 img{
+    transition: all 1.2s ease;
+}
+
+.slide__box__2:hover img{
+    border-radius: 60px;
+    transition: all 1s ease;
+    width: 99%;
 }
 
 #two:checked ~ .slide__box__1{
@@ -306,6 +366,37 @@ input[type="text"]{
     margin-bottom: 200px;
     transition: all 1s ease;
     
+}
+
+
+.slide__box__3:hover{
+    border:none;
+    border-radius: 60px;
+    box-shadow:
+    0 2.8px 2.2px rgba(118, 235, 83, 0.034),
+    0 6.7px 5.3px rgba(163, 23, 23, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(70, 134, 50, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(202, 238, 74, 0.12);
+
+    margin-top: 15px;
+    box-sizing: border-box;
+    margin-left: 20px;    
+    viewport-fit:calc(65vh);
+
+
+}
+
+.slide__box__3 img{
+    transition: all 1.2s ease;
+}
+
+.slide__box__3:hover img{
+    border-radius: 60px;
+    transition: all 1s ease;
+    width: 95%;
+    box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034),
 }
 
 .slider__container .slide__box__4{
