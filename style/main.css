@@ -246,6 +246,13 @@ input[type="text"]{
 }
 
 .slide__box__1:hover{
+    background-image: url(../images/beach__pic.jpg);
+    color: #9bf0f0;
+}
+
+
+
+.slide__box__1:hover{
     border:none;
     border-radius: 60px;
     box-shadow:
@@ -259,10 +266,6 @@ input[type="text"]{
     margin-top: 15px;
     box-sizing: border-box;
     margin-left: 20px;    
-    viewport-fit:calc(65vh);
-    rotate: 100vh;
-
-
 }
 
 .slide__box__1 img{
@@ -287,6 +290,14 @@ input[type="text"]{
     transition: all 1s ease;
 }
 
+.slide__box__2:hover{
+    background-image: linear-gradient(rgba(34, 80, 32, 0.377), rgba(255,255,255,0.5)), url(../images/background__2.jpg);
+    transition: all 2s ease;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #fff;
+}
+
 
 .slide__box__2:hover{
     border:none;
@@ -302,7 +313,6 @@ input[type="text"]{
     margin-top: 15px;
     box-sizing: border-box;
     margin-left: 20px;    
-    viewport-fit:calc(65vh);
 
 
 }
@@ -370,13 +380,17 @@ input[type="text"]{
     transition: all 1s ease;
     
 }
+.slide__box__3:hover{
+    background-image: url(../images/beach__pic__2.jpg);
+    color: #e1e785;
+}
 
 
 .slide__box__3:hover{
     border:none;
     border-radius: 60px;
     box-shadow:
-    0 2.8px 2.2px rgba(118, 235, 83, 0.034),
+    0 2.8px 2.2px rgba(12, 120, 221, 0.034),
     0 6.7px 5.3px rgba(163, 23, 23, 0.048),
     0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(70, 134, 50, 0.072),
@@ -386,9 +400,7 @@ input[type="text"]{
     margin-top: 15px;
     box-sizing: border-box;
     margin-left: 20px;    
-    viewport-fit:calc(65vh);
-
-
+   
 }
 
 .slide__box__3 img{
@@ -399,7 +411,7 @@ input[type="text"]{
     border-radius: 60px;
     transition: all 1s ease;
     width: 95%;
-    box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034),
+    box-shadow:  2.8px 2.2px rgba(0, 0, 0, 0.034);
 }
 
 .slider__container .slide__box__4{
@@ -617,6 +629,223 @@ input[type="text"]{
 input[type="radio"]{
     display: none;
 }
+
+
+
+.testimonials{
+    display: flex;
+    margin-top: 103px;
+    flex-wrap: wrap;
+}
+
+.test__texts{
+    margin-left: 27%;
+    padding-right: 20%;
+}
+
+.test__texts #test__span{
+    color: #0A7777;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.test__texts h2{
+    font-size: 48px;
+}
+
+.people__cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    column-gap: 16px;
+    padding-bottom: 300px;
+}
+
+.test__card__1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/test__background__1.png);
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    padding-right: 24px;
+    padding-left: 22px;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+}
+
+.test__card__1:hover{
+    box-shadow:
+    0 1.8px 1.2px rgba(235, 71, 71, 0.692),
+    0 1.7px 1.3px rgba(186, 62, 190, 0.815),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.test__card__2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/test__background__2.png);
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    padding-right: 24px;
+    padding-left: 22px;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.test__card__2:hover{
+    box-shadow:
+    0 1.8px 1.2px rgba(235, 71, 71, 0.692),
+    0 1.7px 1.3px rgba(186, 62, 190, 0.815),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.test__card__3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/test__background__3.png);
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    padding-right: 24px;
+    padding-left: 22px;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.test__card__3:hover{
+    box-shadow:
+    0 1.8px 1.2px rgba(235, 71, 71, 0.692),
+    0 1.7px 1.3px rgba(186, 62, 190, 0.815),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.test__card__4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/test__background__4.png);
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    padding-right: 30px;
+    padding-left: 22px;
+    transition: all 1s ease;
+
+    box-shadow:
+    0 1.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.test__card__4:hover{
+    box-shadow:
+    0 1.8px 1.2px rgba(235, 71, 71, 0.692),
+    0 1.7px 1.3px rgba(186, 62, 190, 0.815),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.woman__1{
+    padding-top: 38.5px;
+}
+
+.woman__2{
+    padding-top: 38.5px;
+}
+
+.woman__3{
+    padding-top: 38.5px;
+}
+
+.woman__4{
+    padding-top: 38.5px;
+}
+
+.people__cards p{
+    padding-bottom: 16px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 14.52px;
+
+}
+
+.people__cards span{
+    font-size: 36px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+
+.stars__1{
+    padding-bottom: 20px;
+}
+
+.stars__2{
+    padding-bottom: 20px;
+}
+
+.stars__3{
+    padding-bottom: 20px;
+}
+
+.stars__4{
+    padding-bottom: 20px;
+}
+
+
+
+
+
 
 
 
