@@ -306,6 +306,9 @@ input[type="text"]{
 
 
 }
+.slide__box__2:hover .slider__container{
+    background-image: url(../images/background__2.jpg);
+}
 
 .slide__box__2 img{
     transition: all 1.2s ease;
