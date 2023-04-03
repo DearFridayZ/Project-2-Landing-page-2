@@ -1030,7 +1030,7 @@ input[type="radio"]{
     margin-bottom: -150px;
 }
 
-.last__button__label{
+.last__but{
     background-color: #0A7777;
     color: #fff;
     padding-left: 40px;
@@ -1040,7 +1040,7 @@ input[type="radio"]{
     border-radius: 9px;
     font-size: 24px;
 }
-a:hover{
+.last__but:hover{
     color: #fff;
 }
 
