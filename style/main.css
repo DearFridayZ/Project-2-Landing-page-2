@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    padding-top: 100px;
 
 }
 
@@ -244,6 +245,7 @@ input[type="text"]{
     border-radius: 13px;
     transition: all 1s ease;
     margin-bottom: 200px;
+    cursor: pointer;
 }
 
 .slide__box__1:hover{
@@ -289,6 +291,7 @@ input[type="text"]{
     padding-right: 25px;
     margin-bottom: 200px;
     transition: all 1s ease;
+    cursor: pointer;
 }
 
 .slide__box__2:hover{
@@ -379,6 +382,7 @@ input[type="text"]{
     border-radius: 13px;
     margin-bottom: 200px;
     transition: all 1s ease;
+    cursor: pointer;
     
 }
 .slide__box__3:hover{
@@ -424,6 +428,7 @@ input[type="text"]{
     border-radius: 13px;
     transition: all 1s ease;
     height: 100%;
+    cursor: pointer;
     
 }
 
@@ -437,6 +442,7 @@ input[type="text"]{
     transition: all 1s ease;
     height: 100%;
     padding-right: 20px;
+    cursor: pointer;
     
 }
 
@@ -449,6 +455,7 @@ input[type="text"]{
     border-radius: 13px;
     transition: all 1s ease;
     height: 100%;
+    cursor: pointer;
     
 }
 
