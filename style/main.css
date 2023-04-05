@@ -584,7 +584,8 @@ input[type="text"]{
     margin: 0 4px ;
     border-radius:50%;
     transition: all 0.5s ease;
-    translate: -10px 415px;
+    transform: translateX(-19px);
+    transform: translateY(415px);
 
 
 }
@@ -644,10 +645,14 @@ input[type="radio"]{
     display: flex;
     margin-top: 103px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
 }
 
 .test__texts{
-    margin-left: 27%;
+    width: 100%;
+    padding-left: 440px;
 }
 
 .test__texts #test__span{
@@ -664,9 +669,7 @@ input[type="radio"]{
 
 .people__cards{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: 30%;
     column-gap: 16px;
     padding-bottom: 300px;
     flex-wrap: wrap;
@@ -1054,3 +1057,182 @@ input[type="radio"]{
     color: #fff;
 }
 
+
+@media(max-width:1370px){
+
+    .backpack__guy #back__girl{
+        width: 360px;
+        padding-left: 160px;
+    }
+
+    .backpack__guy h1{
+        margin-top: 160px;
+        font-size: 42px;
+    }
+    
+    .backpack__guy p{
+        font-size: 22px;
+    }
+
+    .search__box #calendar{
+        padding: 26px 26px
+
+    }
+
+    .search__box #search__icon{
+        padding-right: 44px;
+    }
+
+    .about__us .two_pictures .palm__pic {
+        width: 290px;
+        
+    }
+
+    .about__us .two_pictures .church__pic {
+        width: 260px;
+        height: 400px;
+        transform: translateY(150px);
+        
+    }
+
+    .about__us__texts h2{
+        font-size: 42px;
+    }
+
+    .about__us__texts p{
+        font-size: 20px;
+    }
+
+    .about__numbers ul li{
+        font-size: 40px;
+        padding-right: 80px;
+    }
+
+    .about__numbers #last__item__number{
+        padding-right: 19px;
+    }
+
+    .two_pictures{
+        display: flex;
+    }
+
+    .number__descriptions ul li{
+        font-size: 16px;
+        padding-right: 52px;
+    }
+
+    .slider__texts{
+        padding-right: 570px;
+    }
+
+    .slider__texts h3{
+        font-size: 42px;
+    }
+    .slider__container img{
+        width: 250px;
+        padding-bottom: 10px;
+    }
+    .slide__box__1{
+        width: 280px;
+    }
+
+    .slide__box__2{
+        width: 260px;
+    }
+
+
+    .slide__box__3{
+        width: 280px;
+    }
+
+    .slide__box__4{
+        width: 280px;
+    }
+
+    #two:checked .slide__box__4{
+        margin: 0 3% 0 3%;
+    }
+
+    .slider__container  #tour__dur__1{
+        padding-left: 60px;
+    }
+
+    .slider__container  #tour__dur__2{
+        padding-left: 60px;
+    }
+
+    .slider__container  #tour__dur__3{
+        padding-left: 60px;
+    }
+
+    .slide__box__1 #place__name__1{
+        font-size: 20px;
+    }
+
+    .slide__box__2 #place__name__2{
+        font-size: 20px;
+    }
+
+    .slide__box__3 #place__name__3{
+        font-size: 20px;
+    }
+
+    .testimonials .test__texts{
+        padding-left: 10px;
+    }
+
+    .people__cards{
+        margin-left: 100px;
+    }
+
+    .test__card__1{
+        margin-bottom: 30px;
+    }
+
+    .test__card__2{
+        margin-bottom: 30px;
+    }
+
+    .test__card__3{
+        margin-bottom: 30px;
+    }
+
+    .test__card__4{
+        margin-bottom: 30px;
+    }
+
+    .people__cards{
+        padding-bottom: 220px;
+    }
+
+    .people__cards h2{
+        font-size: 42px;
+    }
+
+    .tour__container .tour__1{
+        margin: 0px 0px;
+    }
+
+    .tour__2{
+        margin-top: 20px;
+    }
+
+    .tour__3{
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .tour__4{
+        margin-left: 0px;
+        
+    }
+    .last__button{
+        margin-bottom: 20px;
+    }
+
+
+    
+
+
+
+}
