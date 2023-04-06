@@ -1,4 +1,4 @@
-# Team-project-2-Landing-page-2
+#Project-2-Landing-page-2
 
 SkillWill Academy project. 
 
